@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 270" role="img" aria-labelledby="t d">
+  <title id="t">How an AI system works, with a human check</title>
+  <desc id="d">Four boxes in a row: Data, Model, Output, Human check. Arrows run left to right. A return arrow from Human check back to Data is labelled feedback.</desc>
+  <style>
+    .lbl { font: 700 22px "Trebuchet MS", "Segoe UI", system-ui, sans-serif; fill: #1b1840; text-anchor: middle; }
+    .sub { font: 500 15px "Trebuchet MS", "Segoe UI", system-ui, sans-serif; fill: #1b1840; text-anchor: middle; }
+    .box { stroke: #1b1840; stroke-width: 3; }
+    .shadow { fill: #1b1840; }
+    .arrow { stroke: #1b1840; stroke-width: 3.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .loop { stroke: #5b3df5; stroke-width: 3.5; fill: none; stroke-dasharray: 9 8; stroke-linecap: round; }
+    .fb { font: 700 16px "Trebuchet MS", "Segoe UI", system-ui, sans-serif; fill: #3a24c9; text-anchor: middle; }
+  </style>
+  <rect width="760" height="270" rx="22" fill="#f2f8ff"/>
+
+  <rect class="shadow" x="30" y="46" width="150" height="90" rx="18"/>
+  <rect class="box" x="22" y="38" width="150" height="90" rx="18" fill="#d6ecff"/>
+  <text class="lbl" x="97" y="80">Data</text><text class="sub" x="97" y="104">examples</text>
+
+  <rect class="shadow" x="224" y="46" width="150" height="90" rx="18"/>
+  <rect class="box" x="216" y="38" width="150" height="90" rx="18" fill="#e4dcff"/>
+  <text class="lbl" x="291" y="80">Model</text><text class="sub" x="291" y="104">finds patterns</text>
+
+  <rect class="shadow" x="418" y="46" width="150" height="90" rx="18"/>
+  <rect class="box" x="410" y="38" width="150" height="90" rx="18" fill="#c9f5e8"/>
+  <text class="lbl" x="485" y="80">Output</text><text class="sub" x="485" y="104">a prediction</text>
+
+  <rect class="shadow" x="612" y="46" width="150" height="90" rx="18"/>
+  <rect class="box" x="604" y="38" width="150" height="90" rx="18" fill="#5b3df5"/>
+  <text class="lbl" x="679" y="80" style="fill:#fff">Human</text><text class="sub" x="679" y="104" style="fill:#fff">check</text>
+
+  <path class="arrow" d="M176 83 H208 M200 74 L210 83 L200 92"/>
+  <path class="arrow" d="M370 83 H402 M394 74 L404 83 L394 92"/>
+  <path class="arrow" d="M564 83 H596 M588 74 L598 83 L588 92"/>
+
+  <path class="loop" d="M679 134 V212 H97 V138"/>
+  <path class="arrow" d="M88 148 L97 136 L106 148" style="stroke:#5b3df5"/>
+  <text class="fb" x="388" y="240">corrections feed back</text>
+</svg>

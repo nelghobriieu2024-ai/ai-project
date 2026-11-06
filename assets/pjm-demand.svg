@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 210" role="img" aria-labelledby="t d">
+  <title id="t">PJM expected new electricity demand by 2030</title>
+  <desc id="d">A bar showing 32 gigawatts of extra demand expected by 2030 on the PJM grid. About 30 gigawatts come from data centres and about 2 gigawatts from everything else.</desc>
+  <style>
+    .h { font: 700 20px "Trebuchet MS", "Segoe UI", system-ui, sans-serif; fill: #1b1840; }
+    .t { font: 700 17px "Trebuchet MS", "Segoe UI", system-ui, sans-serif; fill: #1b1840; }
+    .w { font: 700 17px "Trebuchet MS", "Segoe UI", system-ui, sans-serif; fill: #ffffff; }
+    .seg { stroke: #1b1840; stroke-width: 3; }
+  </style>
+  <rect width="760" height="210" rx="22" fill="#f2f8ff"/>
+  <text class="h" x="30" y="44">+32 GW extra demand expected by 2030</text>
+  <rect x="38" y="74" width="684" height="64" rx="14" fill="#1b1840"/>
+  <rect class="seg" x="30" y="66" width="640" height="64" rx="14" fill="#5b3df5"/>
+  <rect class="seg" x="670" y="66" width="52" height="64" rx="10" fill="#38bdf8"/>
+  <text class="w" x="350" y="106" text-anchor="middle">Data centres, about 30 GW</text>
+  <text class="t" x="696" y="162" text-anchor="middle">~2 GW</text>
+  <text class="t" x="696" y="184" text-anchor="middle">other</text>
+</svg>
